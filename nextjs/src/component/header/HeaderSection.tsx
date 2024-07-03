@@ -68,7 +68,7 @@ const HeaderSection: React.FC = () => {
         <div className="nk-header__row align-items-center">
           <div className="nk-header__logo-container">
             <Link href="/">
-              <img src={logo} alt="logo" className="logo" />
+              <img src={logo} alt="logo" className="logo omg-thumbnail" />
             </Link>
           </div>
 

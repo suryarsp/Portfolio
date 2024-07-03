@@ -47,9 +47,9 @@ const testimonialData = [
   {
     id: 1,
     testimonial:
-      "Duis aute irure dolor in reprehenderit in voluptate velit cillum dolore eu fugiat nulla pariatur. Excepteur sint proident, culpa qui officia deserunt mollit anim id est laborum.",
+      "Contribution and the analysis that's performed on each and every feature is remarking",
     imgSrc: "assets/img/reviewer-1.jpg",
-    name: "Selena Brook",
+    name: "Ballard Sphar",
     label: "Vivaco Group",
   },
   {
@@ -290,68 +290,104 @@ const blogData = [
 const skillData = [
   {
     id: 1,
-    img: "assets/img/figma.png",
-    title: "Figma",
-    mastery: 60,
+    img: "assets/img/reactjs.png",
+    title: "React JS",
+    mastery: 90,
   },
   {
     id: 2,
-    img: "assets/img/wordpress.png",
-    title: "Wordpress",
+    img: "assets/img/nextjs.png",
+    title: "Next JS",
     mastery: 95,
   },
   {
     id: 3,
-    img: "assets/img/html.jpg",
-    title: "HTML",
-    mastery: 85,
+    img: "assets/img/nodejs.png",
+    title: "Node JS",
+    mastery: 75,
   },
   {
     id: 4,
-    img: "assets/img/bootstrap.png",
-    title: "Bootstrap",
+    img: "assets/img/typescript.png",
+    title: "Typescript",
+    mastery: 75,
+  },
+  {
+    id: 6,
+    img: "assets/img/tailwind.png",
+    title: "Tailwind",
     mastery: 95,
+  },
+  {
+    id: 7,
+    img: "assets/img/sass.png",
+    title: "SASS",
+    mastery: 90,
+  },
+  {
+    id: 8,
+    img: "assets/img/es6.png",
+    title: "ES6",
+    mastery: 95,
+  },
+  {
+    id: 9,
+    img: "assets/img/ant-design.png",
+    title: "Ant Design",
+    mastery: 85,
+  },
+  {
+    id: 9,
+    img: "assets/img/echarts.png",
+    title: "E-Charts",
+    mastery: 85,
   },
 ];
 const educationData = [
   {
     id: 1,
-    timespan: "2015 - 2017",
-    degree: "Programming Course",
-    school: "Harvard University",
+    timespan: "2013 - 2017",
+    degree: "Bachelors (Computer Science)",
+    school: "D.S.C.E.T",
   },
   {
     id: 2,
-    timespan: "2014 - 2015",
-    degree: "AS - Science & Information",
-    school: "AS - Science & Information",
+    timespan: "2012 - 2013",
+    degree: "HSC",
+    school: "G.M.H.S.S",
   },
   {
     id: 3,
-    timespan: "2013 - 2014",
-    degree: "Web Design Course",
-    school: "Bigtown, England",
+    timespan: "2010 - 2011",
+    degree: "SSLC",
+    school: "G.M.H.S.S",
   },
 ];
 
 const experienceData = [
   {
     id: 1,
-    timespan: "2015 - 2017",
-    position: "Software Developer",
-    company: "Harvard University",
+    timespan: "2021 - 2023",
+    position: "Front End Team Lead",
+    company: "Accenture Software Solutions",
   },
   {
     id: 2,
-    timespan: "2014 - 2015",
-    position: "Intern",
-    company: "AS - Science & Information",
+    timespan: "2020 - 2021",
+    position: "Full Stack Developer",
+    company: "Trane Technologies",
   },
   {
     id: 3,
-    timespan: "2013 - 2014",
-    position: "Web Designer",
-    company: "Bigtown, England",
+    timespan: "2019 - 2020",
+    position: "SPFX Front End Developer",
+    company: "Tillid Software",
+  },
+  {
+    id: 3,
+    timespan: "2017 - 2019",
+    position: "Software Engineer",
+    company: "Awarious Technology Solutions",
   },
 ];
 

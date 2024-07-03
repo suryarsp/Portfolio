@@ -61,7 +61,7 @@ const ContactSection = ({ style, innerPage }: Props) => {
                     <div className="nk-contact-info__txt">
                       <h6 className="nk-contact-info__title">phone</h6>
                       <h5 className="nk-contact-info__value">
-                        <a href="tel:+18008009000">+1800 - 800 - 9000</a>
+                        <a href="tel:+18008009000">+91 9962393870</a>
                       </h5>
                     </div>
                   </div>
@@ -75,7 +75,7 @@ const ContactSection = ({ style, innerPage }: Props) => {
                       <h6 className="nk-contact-info__title">email</h6>
                       <h5 className="nk-contact-info__value">
                         <a href="mailto:contact@mydomain.com">
-                          contact@mydomain.com
+                          suryaprakash1007@outlook.com
                         </a>
                       </h5>
                     </div>
@@ -89,7 +89,7 @@ const ContactSection = ({ style, innerPage }: Props) => {
                     <div className="nk-contact-info__txt">
                       <h6 className="nk-contact-info__title">location</h6>
                       <h5 className="nk-contact-info__value">
-                        Ave Street, New York, USA
+                        Chennai, India
                       </h5>
                     </div>
                   </div>

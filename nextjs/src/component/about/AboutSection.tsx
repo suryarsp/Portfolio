@@ -29,10 +29,12 @@ const AboutSection = ({style, showHeader} : Props) => {
                     <div className="nk-about-txt__left">
                         <h3 className="nk-about-txt__title text-animate">
                             <CustomGsapHeaderAnimate>
-                            Hello, I am Niko Jems
+                            Hello, I am Surya Prakash
                             </CustomGsapHeaderAnimate>
                         </h3>
-                        <CustomGsapDescAnimate className="nk-about-txt__descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias omnis aspernatur optio magni consequatur voluptate delectus illum, facere nostrum, libero alias, similique accusamus dolorem impedit quae consequuntur quasi eum odio unde doloribus quos possimus corporis. Earum, sint dolores! Nobis eum hic laborum reiciendis. Perferendis in repudiandae, iure voluptatem praesentium nihil.</CustomGsapDescAnimate>
+                        <CustomGsapDescAnimate className="nk-about-txt__descr">
+                        Highly proficient Senior React.js Lead with 6+ years of experience in designing, developing, and deploying scalable and high-performance web applications. Expertise in JavaScript, React.js ecosystem, and various front-end technologies. Proven ability to deliver pixel-perfect user interfaces and seamless user experiences. Passionate about staying up-to-date with the latest industry trends and technologies.
+                        </CustomGsapDescAnimate>
                         <div className="nk-about-txt__actions">
                             <a href="#contact" className="nk-def-btn">Conatct Me</a>
                             <div className="nk-socials">
@@ -54,31 +56,31 @@ const AboutSection = ({style, showHeader} : Props) => {
                         <div className="col">
                             <div className="nk-about-info">
                                 <h5 className="nk-about-info__title">Name :</h5>
-                                <p className="nk-about-info__value">Niko Jems</p>
+                                <p className="nk-about-info__value">Surya Prakash</p>
                             </div>
                         </div>
                         <div className="col">
                             <div className="nk-about-info">
                                 <h5 className="nk-about-info__title">Email :</h5>
-                                <p className="nk-about-info__value">nikojems@gmail.com</p>
+                                <p className="nk-about-info__value">suryaprakash1007@outlook.com</p>
                             </div>
                         </div>
                         <div className="col">
                             <div className="nk-about-info">
                                 <h5 className="nk-about-info__title">Phone :</h5>
-                                <p className="nk-about-info__value">(+1) 444 - 366 -210</p>
+                                <p className="nk-about-info__value">(+91) 9962393870</p>
                             </div>
                         </div>
                         <div className="col">
                             <div className="nk-about-info">
                                 <h5 className="nk-about-info__title">Skype :</h5>
-                                <p className="nk-about-info__value">nikojems399</p>
+                                <p className="nk-about-info__value">live:rspsuriya777</p>
                             </div>
                         </div>
                         <div className="col">
                             <div className="nk-about-info">
                                 <h5 className="nk-about-info__title">Address :</h5>
-                                <p className="nk-about-info__value">Saskatoon, SK, Canada</p>
+                                <p className="nk-about-info__value">Chennai, India</p>
                             </div>
                         </div>
                     </div>

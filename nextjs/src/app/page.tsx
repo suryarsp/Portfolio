@@ -11,8 +11,8 @@ import TestimonialSection from '@/component/testimonial/TestimonialSection'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Niko Homepage',
-  description: 'Developed By Azizur Rahman',
+  title: 'Surya Prakash',
+  description: 'Developed using Next JS',
 }
 
 export default function Home() {

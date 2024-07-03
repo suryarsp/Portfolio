@@ -36,7 +36,7 @@ const ExperienceCounter = () => {
     <div className="nk-about-highlight counter-box">
       <h3 className="number">
             {isVisible && (
-            <CountUp end={15} duration={5} />
+            <CountUp end={6} duration={5} />
             )}
       </h3>
       <h4 className="title text-animate">Years of Experiance</h4>

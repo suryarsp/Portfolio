@@ -20,8 +20,8 @@ const BannerSection = () => {
         <h1 className="nk-banner__title text-animate">
           <CustomGsapHeaderAnimate>
             Hello, <img src="assets/img/banner-emoji.png" alt="emoji" /> I am
-            Niko, Website and User Interface{" "}
-            <span className="colored">Designer</span>
+            Surya, Web App and User Interface{" "}
+            <span className="colored">Developer</span>
           </CustomGsapHeaderAnimate>
         </h1>
 
@@ -62,7 +62,7 @@ const BannerSection = () => {
 
           <div className="col-lg-6 col-md-4 order-2 order-md-1">
             <div className="nk-banner__img">
-              <img src="assets/img/banner-img.png" alt="Banner Image" />
+              <img src="assets/img/banner-img.png img-fluid" className="image-fluid" alt="Banner Image" />
 
               <div className="vectors">
                 <img src="assets/img/banner-vector-1.png" alt="vector" />
