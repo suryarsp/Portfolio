@@ -32,13 +32,13 @@ export default function Home() {
         style='nk-experiences'
         showHeader={true}
         />
-        <PortfolioSection 
+        {/* <PortfolioSection 
         innerPage={false}
-        />
-        <TestimonialSection />
-        <PricingSection />
+        /> */}
+        {/* <TestimonialSection /> */}
+        {/* <PricingSection /> */}
         <CtaSection />
-        <BlogSection />
+        {/* <BlogSection /> */}
         <ContactSection 
         style=''
         />

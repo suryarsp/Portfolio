@@ -1,46 +1,43 @@
 const serviceData = [
   {
     id: 0,
-    title: "Illustration Design",
-    slug: "illustration-design",
-    category: "Designer",
+    title: "Front End Development",
+    slug: "front-end",
+    category: "front-end",
     imgSrc: "/assets/img/portfolio-1.jpg",
+    description: ["Front-end development is a crucial aspect of web application development, as it directly shapes the user's interaction and perception of the application. By mastering the core technologies, frameworks, and best practices, front-end developers play a vital role in delivering exceptional digital experiences that captivate and engage users.", " Front-end developers ensure that the web application is optimized for various devices and screen sizes, providing a consistent and seamless user experience across desktops, tablets, and mobile devices."],
+    bestPractices: [
+      `Designing and implementing the user interface (UI) and ensuring a seamless user experience (UX)`, 
+      `Writing clean, optimized HTML, CSS, and JavaScript code to build responsive, cross-browser compatible layouts and interactive features`,
+       `Leverage popular frameworks and libraries like React, Angular, and Next.js to streamline development and add advanced functionality.`,
+       `Optimize web page performance, ensure accessibility standards are met`,
+       `Collaborate closely with back-end developers to integrate the front-end with server-side logic and data.`
+    ],
   },
   {
     id: 1,
-    title: "Business Branding",
-    slug: "business-branding",
-    category: "Branding",
+    title: "Server Side Apps",
+    slug: "server-side",
+    category: "Next JS",
     imgSrc: "/assets/img/portfolio-2.jpg",
+    description: ["Next.js applications are primarily rendered on the server, where the initial HTML content is generated and sent to the client. This approach improves the initial page load time and makes the content more accessible to search engine crawlers. Server-side rendering in Next.js can significantly improve the initial page load time, as the server generates the HTML content and sends it to the client, reducing the amount of work the client's browser has to do",
+      "Server-side applications built with Next.js leverage the power of React while providing the benefits of server-side rendering, making them a popular choice for building high-performance, SEO-friendly, and user-friendly web applications."],
+    bestPractices: [],
   },
   {
     id: 2,
-    title: "Packaging Design",
-    slug: "packaging-design",
-    category: "Designer System",
+    title: "Mobile Apps Development",
+    slug: "mobile-apps",
+    category: "React Native",
     imgSrc: "/assets/img/portfolio-3.jpg",
   },
-  {
-    id: 3,
-    title: "Mobile Apps Design",
-    slug: "mobile-apps-design",
-    category: "Branding",
-    imgSrc: "/assets/img/portfolio-4.jpg",
-  },
-  {
-    id: 4,
-    title: "Web UI/UX Design",
-    slug: "web-ui-ux-design",
-    category: "UI/UX Design",
-    imgSrc: "/assets/img/portfolio-5.jpg",
-  },
-  {
-    id: 5,
-    title: "Application Design",
-    slug: "application-design",
-    category: "Web Design",
-    imgSrc: "/assets/img/portfolio-6.jpg",
-  },
+  // {
+  //   id: 3,
+  //   title: "Application Design",
+  //   slug: "application-design",
+  //   category: "Web Design",
+  //   imgSrc: "/assets/img/portfolio-6.jpg",
+  // },
 ];
 
 const testimonialData = [

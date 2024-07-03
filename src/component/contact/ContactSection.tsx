@@ -4,6 +4,7 @@ import React from "react";
 import CustomGsapHeaderAnimate from "../utils/CustomGsapHeaderAnimate";
 import { motion } from "framer-motion";
 import ContactForm from "../form/ContactForm";
+import { Links } from "@/data/Links";
 type Props = {
   style: string;
   innerPage?: boolean;
@@ -75,7 +76,7 @@ const ContactSection = ({ style, innerPage }: Props) => {
                       <h6 className="nk-contact-info__title">email</h6>
                       <h5 className="nk-contact-info__value">
                         <a href="mailto:contact@mydomain.com">
-                          suryaprakash1007@outlook.com
+                          rspsuriya777@gmail.com
                         </a>
                       </h5>
                     </div>
@@ -96,21 +97,21 @@ const ContactSection = ({ style, innerPage }: Props) => {
                 </div>
 
                 <div className="nk-contact__links">
-                  <a href="#" className="nk-banner__link">
+                  <a href={Links.LinkedIn} target="_blank" className="nk-banner__link">
                     <span className="main-icon">
                       <img src="/assets/img/banner-link-6.png" alt="icon" />
                     </span>
-                    <span className="link-txt">Dribble</span>
+                    <span className="link-txt">Linked In</span>
                     <span className="arrow-icon">
                       <img src={arrowIcon} alt="icon" />
                     </span>
                   </a>
 
-                  <a href="#" className="nk-banner__link">
+                  <a href={Links.Skype} target="_blank" className="nk-banner__link">
                     <span className="main-icon">
                       <img src="/assets/img/banner-link-5.png" alt="icon" />
                     </span>
-                    <span className="link-txt">Behance</span>
+                    <span className="link-txt">Skype</span>
                     <span className="arrow-icon">
                       <img src={arrowIcon} alt="icon" />
                     </span>

@@ -4,6 +4,7 @@ import TickerTextSlider from "../slider/TickerTextSlider";
 import Link from "next/link";
 import { useAppSelector } from "@/redux/hooks";
 import CustomGsapHeaderAnimate from "../utils/CustomGsapHeaderAnimate";
+import { Links } from "@/data/Links";
 
 const BannerSection = () => {
   const isThemeDark = useAppSelector((state) => state.themeToggle.isThemeDark);
@@ -20,7 +21,7 @@ const BannerSection = () => {
         <h1 className="nk-banner__title text-animate">
           <CustomGsapHeaderAnimate>
             Hello, <img src="assets/img/banner-emoji.png" alt="emoji" /> I am
-            Surya, Web App and User Interface{" "}
+            Surya, Full Stack  / User Interface{" "}
             <span className="colored">Developer</span>
           </CustomGsapHeaderAnimate>
         </h1>
@@ -62,7 +63,7 @@ const BannerSection = () => {
 
           <div className="col-lg-6 col-md-4 order-2 order-md-1">
             <div className="nk-banner__img">
-              <img src="assets/img/banner-img.png img-fluid" className="image-fluid" alt="Banner Image" />
+              <img src="assets/img/banner-img.png" className="image-fluid w-100" alt="Banner Image" />
 
               <div className="vectors">
                 <img src="assets/img/banner-vector-1.png" alt="vector" />
@@ -90,21 +91,21 @@ const BannerSection = () => {
                 </span>
               </Link>
 
-              <Link href="#" className="nk-banner__link">
+              <Link href={Links.Skype}  target="_blank" className="nk-banner__link">
                 <span className="main-icon">
                   <img src="assets/img/banner-link-5.png" alt="icon" />
                 </span>
-                <span className="link-txt">Behance</span>
+                <span className="link-txt">Skype</span>
                 <span className="arrow-icon">
                   <img src={arrowIcon} alt="icon" />
                 </span>
               </Link>
 
-              <Link href="#" className="nk-banner__link">
+              <Link href={Links.LinkedIn} target="_blank" className="nk-banner__link">
                 <span className="main-icon">
                   <img src="assets/img/banner-link-6.png" alt="icon" />
                 </span>
-                <span className="link-txt">Dribble</span>
+                <span className="link-txt">Linked In</span>
                 <span className="arrow-icon">
                   <img src={arrowIcon} alt="icon" />
                 </span>

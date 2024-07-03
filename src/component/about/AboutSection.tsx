@@ -62,7 +62,7 @@ const AboutSection = ({style, showHeader} : Props) => {
                         <div className="col">
                             <div className="nk-about-info">
                                 <h5 className="nk-about-info__title">Email :</h5>
-                                <p className="nk-about-info__value">suryaprakash1007@outlook.com</p>
+                                <p className="nk-about-info__value">rspsuriya777@gmail.com</p>
                             </div>
                         </div>
                         <div className="col">
@@ -74,7 +74,7 @@ const AboutSection = ({style, showHeader} : Props) => {
                         <div className="col">
                             <div className="nk-about-info">
                                 <h5 className="nk-about-info__title">Skype :</h5>
-                                <p className="nk-about-info__value">live:rspsuriya777</p>
+                                <p className="nk-about-info__value">rspsuriya777</p>
                             </div>
                         </div>
                         <div className="col">

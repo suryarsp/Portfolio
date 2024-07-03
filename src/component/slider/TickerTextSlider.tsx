@@ -109,19 +109,19 @@ const TickerTextSlider = () => {
   return (
     <div className="tickers">
       <Slider {...settings1} className="ticker ticker-1 splide">
-        <h4 className="splide__slide">80+ Team Members </h4>
-        <h4 className="splide__slide">1020+ Satisfied Clients</h4>
-        <h4 className="splide__slide">12+ Worldwide languages</h4>
-        <h4 className="splide__slide">1520+ portfolio Completed</h4>
-        <h4 className="splide__slide">80+ Team Members </h4>
+        <h4 className="splide__slide">20+ Projects</h4>
+        <h4 className="splide__slide">5+ JS Frameworks</h4>
+        <h4 className="splide__slide">6+ UI Libraries</h4>
+        <h4 className="splide__slide">3+ CSS Frameworks</h4>
+        <h4 className="splide__slide">5+ Chart Libraries</h4>
       </Slider>
 
       <Slider {...settings2} className="ticker ticker-2 splide">
-        <h4 className="splide__slide">Website Design & Logo</h4>
+        <h4 className="splide__slide">WebApp Development</h4>
         <h4 className="splide__slide">Application Design</h4>
-        <h4 className="splide__slide">Mobile Application Design</h4>
-        <h4 className="splide__slide">UI/UX Mobile Design</h4>
-        <h4 className="splide__slide">Website Design & Logo</h4>
+        <h4 className="splide__slide">Mobile App Development</h4>
+        <h4 className="splide__slide">Backend Development</h4>
+        <h4 className="splide__slide">Testing and Support</h4>
       </Slider>
     </div>
   );

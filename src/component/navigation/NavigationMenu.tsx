@@ -27,13 +27,13 @@ const NavigationMenu = () => {
               <NavLink href="/service">Services</NavLink>
             </li>
             <li>
-              <NavLink href="/service/illustration-design">
+              <NavLink href="/service/front-end">
                 Service Details
               </NavLink>
             </li>
           </ul>
         </li>
-        <li>
+        {/* <li>
           <a role="button">Portfolio</a>
           <ul className="sub-menu">
             <li>
@@ -58,7 +58,7 @@ const NavigationMenu = () => {
               </NavLink>
             </li>
           </ul>
-        </li>
+        </li> */}
         {tabMode && (
           <li>
             <NavLink href="/contact">Contact</NavLink>
