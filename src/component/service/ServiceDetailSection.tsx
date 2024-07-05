@@ -1,24 +1,17 @@
 import React from 'react'
 import ServiceSidebar from './ServiceSidebar'
 import ServiceDetails from './ServiceDetails'
+import { ServiceDetail } from '@/models'
 interface Props {
-  serviceInfo: {
-    id: number;
-    title: string;
-    slug: string;
-    category: string;
-    imgSrc: string;
-    description: string[];
-    bestPractices: string[];
-  }
+  serviceInfo: ServiceDetail
 }
 const ServiceDetailSection = ({ serviceInfo }: Props) => {
-  const { bestPractices, category, description, id, imgSrc, slug, title } = serviceInfo;
+  const { bestPractices, description, imgSrc, slug, title } = serviceInfo;
   return (
     <div className="nk-section-spacing">
       <div className="container">
         <div className="nk-service-details-container row justify-content-center gy-5">
-          <ServiceSidebar slug={slug} />
+        <ServiceSidebar slug={slug} />
           <ServiceDetails
             img={imgSrc}
             title={title}

@@ -1,4 +1,6 @@
-const serviceData = [
+import { ServiceDetail } from "@/models";
+
+const serviceData: ServiceDetail[] = [
   {
     id: 0,
     title: "Front End Development",
@@ -6,12 +8,20 @@ const serviceData = [
     category: "front-end",
     imgSrc: "/assets/img/portfolio-1.jpg",
     description: ["Front-end development is a crucial aspect of web application development, as it directly shapes the user's interaction and perception of the application. By mastering the core technologies, frameworks, and best practices, front-end developers play a vital role in delivering exceptional digital experiences that captivate and engage users.", " Front-end developers ensure that the web application is optimized for various devices and screen sizes, providing a consistent and seamless user experience across desktops, tablets, and mobile devices."],
-    bestPractices: [
-      `Designing and implementing the user interface (UI) and ensuring a seamless user experience (UX)`, 
-      `Writing clean, optimized HTML, CSS, and JavaScript code to build responsive, cross-browser compatible layouts and interactive features`,
-       `Leverage popular frameworks and libraries like React, Angular, and Next.js to streamline development and add advanced functionality.`,
-       `Optimize web page performance, ensure accessibility standards are met`,
-       `Collaborate closely with back-end developers to integrate the front-end with server-side logic and data.`
+    bestPractices: [{
+      title: "Interactivity & User Experience",
+      content: ["Developed a real-time chat application using React and WebSockets, enabling seamless communication and fostering user engagement within the platform.",
+        "Implemented a dynamic drag-and-drop interface using React DnD library, empowering users to effortlessly customize their dashboards and workflows.",
+        "Developed an interactive data visualization dashboard using React and charting libraries like D3.js, providing users with clear and actionable insights into complex datasets."
+      ]
+    },
+    {
+      title: "Performance & Scalability",
+      content: ["Architected and implemented a React application that achieved a 20% reduction in initial load time through code-splitting and lazy loading, enhancing user experience for our large customer base.",
+        "Spearheaded the migration of a legacy application to React, resulting in a 30% improvement in application responsiveness and a smoother user experience, especially on low-bandwidth connections",
+        "Optimized React component rendering using techniques like memoization and PureComponent, leading to a 15% reduction in memory usage and improved application performance on mobile devices.",
+      ]
+    }
     ],
   },
   {
@@ -22,7 +32,24 @@ const serviceData = [
     imgSrc: "/assets/img/portfolio-2.jpg",
     description: ["Next.js applications are primarily rendered on the server, where the initial HTML content is generated and sent to the client. This approach improves the initial page load time and makes the content more accessible to search engine crawlers. Server-side rendering in Next.js can significantly improve the initial page load time, as the server generates the HTML content and sends it to the client, reducing the amount of work the client's browser has to do",
       "Server-side applications built with Next.js leverage the power of React while providing the benefits of server-side rendering, making them a popular choice for building high-performance, SEO-friendly, and user-friendly web applications."],
-    bestPractices: [],
+    bestPractices: [
+      {
+        title: "Developer Experience & Maintainability",
+        content: [
+          "Established a robust development workflow using Next.js with TypeScript, enabling type safety, improved code completion, and reduced runtime errors.",
+          "Introduced automated testing practices with Jest and Next.js testing framework, achieving a 90% code coverage and a more maintainable codebase.",
+          "Created a modular Next.js API with clear documentation and well-defined routes, promoting code reusability and simplifying future development efforts."
+        ]
+      },
+      {
+        title: "Performance & Scalability",
+        content: [
+          "Architected and implemented a serverless API using Next.js API routes, achieving a 40% reduction in server costs while maintaining exceptional response times for our rapidly growing user base.",
+          "Leveraged Next.js Static Site Generation (SSG) for a content-heavy website, resulting in a 2x improvement in SEO ranking and a significantly faster first-load experience for visitors.",
+          "Optimized Next.js Incremental Static Regeneration (ISR) for a dynamic blog platform, ensuring near-instant updates for new content while maintaining server-side rendering benefits."
+        ]
+      }
+    ],
   },
   {
     id: 2,
@@ -30,6 +57,28 @@ const serviceData = [
     slug: "mobile-apps",
     category: "React Native",
     imgSrc: "/assets/img/portfolio-3.jpg",
+
+    description: ["In today's mobile-first world, crafting captivating applications that thrive across platforms is crucial. Enter React Native, a game-changer in mobile development, empowering you to build exceptional mobile apps with a single codebase for both iOS and Android.",
+      "React Native doesn't compromise on user experience. By leveraging native UI components, apps built with React Native deliver a seamless and familiar experience across iOS and Android devices. Users won't notice the difference – they'll just enjoy a smooth, intuitive, and visually stunning app"
+    ],
+    bestPractices: [
+      {
+        title: "User Experience & Design",
+        content: [
+          "Platform-Specific Styles: Demonstrate your knowledge of implementing platform-specific styles to ensure your app adheres to native design guidelines on both iOS and Android.",
+          "Responsive Design & Accessibility: Showcase your ability to create responsive UIs that adapt to different screen sizes and your efforts to integrate accessibility features for a wider user base.",
+          "Customizable UI Components: Highlight your capability to develop reusable and customizable UI components, promoting code reusability and streamlining future development efforts."
+        ]
+      },
+      {
+        title: "State Management & Maintainability",
+        content: [
+          "Redux or MobX for Complex Apps: Demonstrate your experience with state management libraries like Redux or MobX for complex applications, ensuring centralized data management and a predictable application state.",
+          "Clear and Consistent Naming Conventions: Showcase your commitment to maintainability by implementing consistent naming conventions for variables, functions, and components, making the codebase easier to understand for yourself and future developers.",
+          "Unit Testing with Jest & React Testing Library: Highlight your testing practices using Jest and React Testing Library to write unit tests for your components, ensuring code quality and preventing regressions during development."
+        ]
+      },
+    ],
   },
   // {
   //   id: 3,
@@ -77,22 +126,17 @@ const testimonialData = [
 const faqItems = [
   {
     id: 1,
-    title: "Simple process for workflow?",
+    title: "How to reach out ?",
     content:
-      "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over words, combined with a handful of model structures, to generate Lorem Ipsum which looks reasonable.",
+      "Please click on the contact section to reach out",
   },
   {
     id: 2,
-    title: "Unique brand identity and strategy",
+    title: "What are the service that I offer ?",
     content:
-      "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over words, combined with a handful of model structures, to generate Lorem Ipsum which looks reasonable.",
+      "I offer Web Development, Web API Design & Integration, Development and Testing Support, Mobile Apps Development",
   },
-  {
-    id: 3,
-    title: "Tailor-made digital products",
-    content:
-      "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over words, combined with a handful of model structures, to generate Lorem Ipsum which looks reasonable.",
-  },
+
 ];
 
 const portfolioData = [

@@ -31,13 +31,13 @@ const ServiceSidebar = ({ slug }: Props) => {
           </ul>{" "}
         </div>
 
-        <div className="nk-service-details-widget">
+        {/* <div className="nk-service-details-widget">
           <div className="nk-service-details__cta bg-defaults">
             <a href="#contact" className="nk-def-btn">
               Let's Talk
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
