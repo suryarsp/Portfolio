@@ -39,7 +39,7 @@ const BannerSection = () => {
                 </span>
               </Link>
 
-              <Link href="#" className="nk-banner__link">
+              <Link href={Links.Resume} target="_blank" className="nk-banner__link">
                 <span className="main-icon">
                   <img src="assets/img/banner-link-2.png" alt="icon" />
                 </span>
