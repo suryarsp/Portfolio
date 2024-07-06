@@ -16,7 +16,7 @@ const FooterSection = () => {
         <div className="row gx-0 gy-3 align-items-center">
           <div className="col-lg-6">
             <p className="nk-footer__copyright-txt mb-0">
-              Copyright &copy; {new Date().getFullYear()} Niko. All rights reserved.
+              Copyright &copy; {new Date().getFullYear()} Surya. All rights reserved.
             </p>
           </div>
 

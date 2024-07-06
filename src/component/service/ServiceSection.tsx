@@ -99,7 +99,7 @@ const ServiceSection = ({ style, showHeader, listStyle }: Props) => {
             </h6>
             <h2 className="nk-section__title text-animate">
               <CustomGsapHeaderAnimate>
-                How I can help your next portfolio
+                How I can help to build your product
               </CustomGsapHeaderAnimate>
             </h2>
           </div>

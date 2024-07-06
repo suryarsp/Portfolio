@@ -6,8 +6,8 @@ import type { Metadata } from 'next'
 import { ServiceDetail } from '@/models'
 
 export const metadata: Metadata = {
-  title: 'Niko Service Details',
-  description: 'Developed By Azizur Rahman',
+  title: 'Surya Service Details',
+  description: 'Developed By Surya Prakash',
 }
 const Page = ({ params }: { params: { slug: string } }) => {
     const serviceInfo = serviceData.find((item) => item.slug === params.slug)

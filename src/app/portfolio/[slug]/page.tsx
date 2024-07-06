@@ -6,8 +6,8 @@ import PortfolioDetailSection from '@/component/portfolio/PortfolioDetailSection
 import ContactSection from '@/component/contact/ContactSection'
 
 export const metadata: Metadata = {
-  title: 'Niko Portfolio Details',
-  description: 'Developed By Azizur Rahman',
+  title: 'Surya Portfolio Details',
+  description: 'Developed By Surya Prakash',
 }
 const Page = ({ params }: { params: { slug: string } }) => {
     const portfolioInfo = portfolioData.find((item) => item.slug === params.slug)

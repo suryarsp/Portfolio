@@ -11,7 +11,7 @@ import TestimonialSection from '@/component/testimonial/TestimonialSection'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Surya Prakash',
+  title: 'Surya Prakash Portfolio',
   description: 'Developed using Next JS',
 }
 

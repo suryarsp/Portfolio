@@ -5,13 +5,13 @@ import type { Metadata } from 'next'
 import BreadcrumbSection from '@/component/breadcrumb/BreadcrumbSection'
 
 export const metadata: Metadata = {
-  title: 'Niko Portfolio Page',
-  description: 'Developed By Azizur Rahman',
+  title: 'My Works',
+  description: 'Developed By Surya Prakash',
 }
 const Page = () => {
   return (
     <main>
-        <BreadcrumbSection currentPage='Portfolio' />
+        <BreadcrumbSection currentPage='Works' />
         <PortfolioSection 
         innerPage={true}
         />

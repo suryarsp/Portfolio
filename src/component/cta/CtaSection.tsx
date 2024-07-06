@@ -19,23 +19,20 @@ const CtaSection = () => {
                   </h6>
                   <h2 className="nk-section__title text-animate">
                     <CustomGsapHeaderAnimate>
-                      Hi, I am experts in every aspect lifecycle
+                      Hi, I am experts in Web and Mobile App Development
                     </CustomGsapHeaderAnimate>{" "}
                   </h2>
                 </div>
                 <CustomGsapDescAnimate className="nk-about-txt__descr">
-                  Many desktop publishing packages and web page editors now use
-                  Lorem Ipsum as their default model text, and a search for
-                  'lorem ipsum' web sites still in their infancy. Various
-                  versions have evolved
+                "Imagine a website that not only looks stunning, but actively grows your business. I craft custom web experiences that convert visitors into customers. Let's discuss your vision and turn it into a reality."
                 </CustomGsapDescAnimate>
                 <div className="nk-about-txt__actions nk-cta-top__actions">
                   <a href="#contact" className="nk-def-btn">
                     Hire Me Now
                   </a>
                   <div className="nk-cta-top__achievement">
-                    <h3 className="nk-section__title">1k+</h3>
-                    <h5 className="title">Reviews</h5>
+                    <h3 className="nk-section__title">15+</h3>
+                    <h5 className="title">Web Apps</h5>
                   </div>
                 </div>
 

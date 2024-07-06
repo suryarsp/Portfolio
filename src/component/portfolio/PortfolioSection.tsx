@@ -94,39 +94,31 @@ const PortfolioSection = ({ innerPage }: Props) => {
             }`}
             onClick={() => setSelectedCategory("all")}
           >
-            All Parts
+            All Works
           </button>
           <button
             className={`nk-portfolio__nav ${
               selectedCategory === "branding-app" && "active"
             }`}
-            onClick={() => setSelectedCategory("branding-app")}
+            onClick={() => setSelectedCategory("web-app")}
           >
-            Branding App
+            Web Apps
           </button>
           <button
             className={`nk-portfolio__nav ${
               selectedCategory === "ios-app" && "active"
             }`}
-            onClick={() => setSelectedCategory("ios-app")}
+            onClick={() => setSelectedCategory("server-side")}
           >
-            iOS App
-          </button>
-          <button
-            className={`nk-portfolio__nav ${
-              selectedCategory === "landing-page" && "active"
-            }`}
-            onClick={() => setSelectedCategory("landing-page")}
-          >
-            Landing Page
+            Web API
           </button>
           <button
             className={`nk-portfolio__nav ${
               selectedCategory === "website" && "active"
             }`}
-            onClick={() => setSelectedCategory("website")}
+            onClick={() => setSelectedCategory("mobile-app")}
           >
-            Website
+            Mobile Apps
           </button>
         </div>
 
@@ -137,9 +129,9 @@ const PortfolioSection = ({ innerPage }: Props) => {
                 className="nk-portfolio__img reveal"
                 ref={(el) => (imageContainersRef.current[index] = el)}
               >
-                <Link href={`/portfolio/${item.slug}`}>
+                {/* <Link href={`/portfolio/${item.slug}`}> */}
                   <img src={item.imgSrc} alt="Portfolio Image" />
-                </Link>
+                {/* </Link> */}
               </div>
               <div className="nk-portfolio__txt">
                 <CustomGsapHeaderAnimate>

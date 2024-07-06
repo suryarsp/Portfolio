@@ -5,8 +5,8 @@ import BreadcrumbSection from '@/component/breadcrumb/BreadcrumbSection'
 import AllBlogSection from '@/component/blog/AllBlogSection'
 
 export const metadata: Metadata = {
-  title: 'Niko Blog Page',
-  description: 'Developed By Azizur Rahman',
+  title: 'Surya Blog Page',
+  description: 'Developed By Surya Prakash',
 }
 const Page = () => {
   return (

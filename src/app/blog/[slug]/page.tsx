@@ -5,8 +5,8 @@ import ContactSection from '@/component/contact/ContactSection'
 import BlogDetailSection from '@/component/blog/BlogDetailSection'
 
 export const metadata: Metadata = {
-  title: 'Niko Blog Details',
-  description: 'Developed By Azizur Rahman',
+  title: 'Surya Blog Details',
+  description: 'Developed By Surya Prakash',
 }
 const Page = ({ params }: { params: { slug: string } }) => {
     const blogInfo = blogData.find((item) => item.slug === params.slug)

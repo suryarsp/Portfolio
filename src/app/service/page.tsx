@@ -6,8 +6,8 @@ import React from 'react'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Niko Service Page',
-  description: 'Developed By Azizur Rahman',
+  title: 'Surya Service Page',
+  description: 'Developed By Surya Prakash',
 }
 const Page = () => {
   return (
@@ -18,7 +18,7 @@ const Page = () => {
         showHeader={false}
         listStyle='nk-inner-service'
         />
-        <PricingSection />
+        {/* <PricingSection /> */}
         <ContactSection style='nk-inner-contact'/>
     </main>
   )

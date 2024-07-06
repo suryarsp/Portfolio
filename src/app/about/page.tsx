@@ -6,8 +6,8 @@ import ExperienceSection from '@/component/experience/ExperienceSection'
 import ContactSection from '@/component/contact/ContactSection'
 
 export const metadata: Metadata = {
-  title: 'Niko About Page',
-  description: 'Developed By Azizur Rahman',
+  title: 'About Page',
+  description: 'Developed By Surya Prakash',
 }
 const Page = () => {
   return (
