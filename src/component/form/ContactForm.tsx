@@ -3,9 +3,9 @@ import { useForm, SubmitHandler } from "react-hook-form";
 import { toast } from "react-toastify";
 
 type Inputs = {
-  name: string;
-  email: string;
-  message: string;
+  "entry.609794493": string;
+  "entry.295777740": string;
+  "entry.921898051": string;
 };
 const ContactForm = () => {
   const { register, handleSubmit, reset } = useForm<Inputs>();
@@ -21,29 +21,30 @@ const ContactForm = () => {
   };
   return (
     <form
-      action="#"
+      action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdHjAxEQpQZy9_NnabYU3RxTvNuW8u_nBC6ssitxeXUeGCU2g/formResponse"
       className="nk-contact-form"
-      onSubmit={handleSubmit(onSubmit)}
+      target="_blank"
+      // onSubmit={handleSubmit(onSubmit)}
     >
       <input
         type="text"
-        id="nk-contact-form-name"
+         id="nk-contact-form-name"
         placeholder="Your Full Name"
-        {...register("name")}
+       {...register("entry.609794493")}
         required
       />
       <input
         type="email"
         id="nk-contact-form-email"
         placeholder="Email Address"
-        {...register("email")}
+       {...register("entry.295777740")}
         required
       />
       <textarea
         id="nk-contact-form-message"
         rows={10}
         placeholder="Your Message"
-        {...register("message")}
+       {...register("entry.921898051")}
         required
       ></textarea>
       <button type="submit" className="nk-def-btn">

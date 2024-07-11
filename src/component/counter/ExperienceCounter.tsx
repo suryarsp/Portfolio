@@ -37,7 +37,7 @@ const ExperienceCounter = () => {
       <h3 className="number">
             {isVisible && (
               <>
-            <CountUp end={6} duration={5} /> 
+            <CountUp end={6.5} duration={5} /> 
             <span>+</span>
             </>
             )}

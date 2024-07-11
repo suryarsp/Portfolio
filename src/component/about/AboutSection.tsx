@@ -33,16 +33,16 @@ const AboutSection = ({style, showHeader} : Props) => {
                             </CustomGsapHeaderAnimate>
                         </h3>
                         <CustomGsapDescAnimate className="nk-about-txt__descr">
-                        Highly proficient Senior React.js Lead with 6+ years of experience in designing, developing, and deploying scalable and high-performance web applications. Expertise in JavaScript, React.js ecosystem, and various front-end technologies. Proven ability to deliver pixel-perfect user interfaces and seamless user experiences. Passionate about staying up-to-date with the latest industry trends and technologies.
+                        Highly proficient Senior React.js Lead with 6.5+ years of experience in designing, developing, and deploying scalable and high-performance web applications. Expertise in JavaScript, React.js ecosystem, and various front-end technologies. Proven ability to deliver pixel-perfect user interfaces and seamless user experiences. Passionate about staying up-to-date with the latest industry trends and technologies.
                         </CustomGsapDescAnimate>
                         <div className="nk-about-txt__actions">
                             <a href="#contact" className="nk-def-btn">Conatct Me</a>
-                            <div className="nk-socials">
+                            {/* <div className="nk-socials">
                                 <a href="#">FB</a>
                                 <a href="#">TW</a>
                                 <a href="#">LI</a>
                                 <a href="#">BE</a>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
 
