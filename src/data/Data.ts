@@ -145,7 +145,7 @@ const portfolioData = [
     category: "web-app",
     imgSrc: "/assets/img/portfolio-1.jpg",
     mainSrc: "/assets/img/portfolio-main-1.jpg",
-    title: "React JS / Anngular",
+    title: "React JS / Angular",
     slug: "web-app",
   },
 

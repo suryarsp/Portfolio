@@ -141,7 +141,9 @@ const PortfolioSection = ({ innerPage }: Props) => {
                 </CustomGsapHeaderAnimate>
                 <CustomGsapHeaderAnimate>
                   <h4 className="nk-portfolio__title text-animate">
-                    <Link href={`/portfolio/${item.slug}`}>{item.title}</Link>
+                    {/* <Link href={`/portfolio/${item.slug}`}> */}
+                    {item.title}
+                    {/* </Link> */}
                   </h4>
                 </CustomGsapHeaderAnimate>
               </div>
