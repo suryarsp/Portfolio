@@ -68,7 +68,7 @@ const AboutSection = ({style, showHeader} : Props) => {
                         <div className="col">
                             <div className="nk-about-info">
                                 <h5 className="nk-about-info__title">Phone :</h5>
-                                <p className="nk-about-info__value">(+91) 9962393870</p>
+                                <p className="nk-about-info__value">(+91) 9500188926</p>
                             </div>
                         </div>
                         <div className="col">
