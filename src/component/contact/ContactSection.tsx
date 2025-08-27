@@ -62,7 +62,7 @@ const ContactSection = ({ style, innerPage }: Props) => {
                     <div className="nk-contact-info__txt">
                       <h6 className="nk-contact-info__title">phone</h6>
                       <h5 className="nk-contact-info__value">
-                        <a href="tel:+919500188926">+91 9500188926</a>
+                        <a href="tel:+919500188926">+91 9500188926 </a>
                       </h5>
                     </div>
                   </div>
