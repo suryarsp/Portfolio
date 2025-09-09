@@ -11,8 +11,16 @@ import TestimonialSection from '@/component/testimonial/TestimonialSection'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Surya Prakash Portfolio',
-  description: 'Developed using Next JS',
+  title: 'Home | Surya Prakash Portfolio',
+  description: 'Welcome to the portfolio of Surya Prakash. Discover my projects, skills, and professional experience as a web developer.',
+  openGraph: {
+    title: 'Home | Surya Prakash Portfolio',
+    description: 'Welcome to the portfolio of Surya Prakash. Discover my projects, skills, and professional experience as a web developer.',
+  },
+  twitter: {
+    title: 'Home | Surya Prakash Portfolio',
+    description: 'Welcome to the portfolio of Surya Prakash. Discover my projects, skills, and professional experience as a web developer.',
+  }
 }
 
 export default function Home() {

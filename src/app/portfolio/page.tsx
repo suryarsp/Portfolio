@@ -5,8 +5,16 @@ import type { Metadata } from 'next'
 import BreadcrumbSection from '@/component/breadcrumb/BreadcrumbSection'
 
 export const metadata: Metadata = {
-  title: 'My Works',
-  description: 'Developed By Surya Prakash',
+  title: 'My Works | Surya Prakash Portfolio',
+  description: 'Explore a collection of my best projects. See my skills in action and discover the work I’m most proud of.',
+  openGraph: {
+    title: 'My Works | Surya Prakash Portfolio',
+    description: 'Explore a collection of my best projects. See my skills in action and discover the work I’m most proud of.',
+  },
+  twitter: {
+    title: 'My Works | Surya Prakash Portfolio',
+    description: 'Explore a collection of my best projects. See my skills in action and discover the work I’m most proud of.',
+  }
 }
 const Page = () => {
   return (

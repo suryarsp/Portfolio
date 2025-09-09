@@ -4,8 +4,16 @@ import type { Metadata } from "next";
 import ContactSection from "@/component/contact/ContactSection";
 
 export const metadata: Metadata = {
-  title: "Surya Contact Page",
-  description: "Developed By Surya Prakash",
+  title: "Contact Me | Surya Prakash Portfolio",
+  description: "Get in touch with Surya Prakash. Contact me for project inquiries, collaborations, or any other questions.",
+  openGraph: {
+    title: "Contact Me | Surya Prakash Portfolio",
+    description: "Get in touch with Surya Prakash. Contact me for project inquiries, collaborations, or any other questions.",
+  },
+  twitter: {
+    title: "Contact Me | Surya Prakash Portfolio",
+    description: "Get in touch with Surya Prakash. Contact me for project inquiries, collaborations, or any other questions.",
+  }
 };
 const Page = () => {
   return (
