@@ -32,15 +32,15 @@ const PortfolioSection = ({ innerPage }: Props) => {
           let image = entry.target.querySelector("img");
           let tl = gsap.timeline();
           tl.set(entry.target, { autoAlpha: 1 });
-          tl.from(entry.target, 0.8, {
+          tl.from(entry.target, 0.4, {
             xPercent: -100,
             ease: "power2.out",
           });
 
-          tl.from(image, 0.8, {
+          tl.from(image, 0.4, {
             xPercent: 100,
-            scale: 1.3,
-            delay: -0.8,
+            scale: 1.1,
+            delay: -0.4,
             ease: "power2.out",
           });
           observer.unobserve(entry.target);
@@ -76,12 +76,12 @@ const PortfolioSection = ({ innerPage }: Props) => {
           <div className="nk-section__heading">
             <h6 className="nk-section__sub-title text-animate">
               <CustomGsapHeaderAnimate>
-                Complete portfolio
+                Domain Expertise
               </CustomGsapHeaderAnimate>
             </h6>
             <h2 className="nk-section__title text-animate">
               <CustomGsapHeaderAnimate>
-                Look at my portfolio and give me your feedback
+                Industries &amp; verticals I&apos;ve delivered in
               </CustomGsapHeaderAnimate>
             </h2>
           </div>
@@ -89,36 +89,34 @@ const PortfolioSection = ({ innerPage }: Props) => {
 
         <div className="nk-portfolio__filter-navs">
           <button
-            className={`nk-portfolio__nav ${
-              selectedCategory === "all" && "active"
-            }`}
+            className={`nk-portfolio__nav ${selectedCategory === "all" && "active"}`}
             onClick={() => setSelectedCategory("all")}
           >
             All Works
           </button>
           <button
-            className={`nk-portfolio__nav ${
-              selectedCategory === "branding-app" && "active"
-            }`}
-            onClick={() => setSelectedCategory("web-app")}
+            className={`nk-portfolio__nav ${selectedCategory === "healthtech" && "active"}`}
+            onClick={() => setSelectedCategory("healthtech")}
           >
-            Web Apps
+            HealthTech
           </button>
           <button
-            className={`nk-portfolio__nav ${
-              selectedCategory === "ios-app" && "active"
-            }`}
-            onClick={() => setSelectedCategory("server-side")}
+            className={`nk-portfolio__nav ${selectedCategory === "analytics" && "active"}`}
+            onClick={() => setSelectedCategory("analytics")}
           >
-            Web API
+            Analytics
           </button>
           <button
-            className={`nk-portfolio__nav ${
-              selectedCategory === "website" && "active"
-            }`}
-            onClick={() => setSelectedCategory("mobile-app")}
+            className={`nk-portfolio__nav ${selectedCategory === "enterprise" && "active"}`}
+            onClick={() => setSelectedCategory("enterprise")}
           >
-            Mobile Apps
+            Enterprise
+          </button>
+          <button
+            className={`nk-portfolio__nav ${selectedCategory === "mobile" && "active"}`}
+            onClick={() => setSelectedCategory("mobile")}
+          >
+            Mobile
           </button>
         </div>
 
@@ -151,14 +149,6 @@ const PortfolioSection = ({ innerPage }: Props) => {
           ))}
         </div>
 
-        {!innerPage && (
-          <div className="text-center">
-            <Link href="/portfolio" className="nk-def-btn">
-              see all portfolios{" "}
-              <i className="fa-regular fa-arrow-up-right"></i>
-            </Link>
-          </div>
-        )}
       </div>
     </section>
   );

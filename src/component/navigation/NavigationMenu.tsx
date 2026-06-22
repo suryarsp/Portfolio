@@ -33,6 +33,9 @@ const NavigationMenu = () => {
             </li>
           </ul>
         </li>
+        <li>
+          <NavLink href="/domain">Domains</NavLink>
+        </li>
         {/* <li>
           <a role="button">Portfolio</a>
           <ul className="sub-menu">

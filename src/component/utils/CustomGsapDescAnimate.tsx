@@ -18,13 +18,13 @@ const CustomGsapDescAnimate = ({ children, className }: Props) => {
     if (!hasBeenVisible.current) {
       const animate = new SplitType(textRef.current!, { types: "words,lines" });
       gsap.from(animate.lines, {
-        duration: 0.8,
-        delay: 0.3,
+        duration: 0.3,
+        delay: 0.05,
         opacity: 0,
-        rotationX: -80,
+        rotationX: -40,
         force3D: true,
         transformOrigin: "top center -50",
-        stagger: 0.1,
+        stagger: 0.05,
         scrollTrigger: {
           trigger: textRef.current,
           start: "top 95%",

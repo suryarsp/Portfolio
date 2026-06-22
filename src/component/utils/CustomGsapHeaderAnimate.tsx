@@ -24,9 +24,9 @@ const CustomGsapHeaderAnimate = ({ children, className }: Props) => {
         });
         gsap.from(animate.chars, {
           opacity: 0,
-          x: 80,
-          duration: 1,
-          stagger: { amount: 0.9 },
+          x: 40,
+          duration: 0.4,
+          stagger: { amount: 0.3 },
           scrollTrigger: {
             trigger: textRef.current,
             start: "top 95%",
