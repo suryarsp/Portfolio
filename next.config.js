@@ -1,11 +1,4 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  outputFileTracingExcludes: {
-    '*': [
-      './node_modules/sharp/**/*',
-      './compress-images.mjs',
-    ],
-  },
-}
+const nextConfig = {}
 
 module.exports = nextConfig
