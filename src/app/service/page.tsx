@@ -6,8 +6,16 @@ import React from 'react'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Surya Service Page',
-  description: 'Developed By Surya Prakash',
+  title: 'Services | Surya Prakash Portfolio',
+  description: 'Discover the web development services I offer, from custom website design to performance optimization and more.',
+  openGraph: {
+    title: 'Services | Surya Prakash Portfolio',
+    description: 'Discover the web development services I offer, from custom website design to performance optimization and more.',
+  },
+  twitter: {
+    title: 'Services | Surya Prakash Portfolio',
+    description: 'Discover the web development services I offer, from custom website design to performance optimization and more.',
+  }
 }
 const Page = () => {
   return (

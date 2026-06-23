@@ -5,8 +5,16 @@ import BreadcrumbSection from '@/component/breadcrumb/BreadcrumbSection'
 import AllBlogSection from '@/component/blog/AllBlogSection'
 
 export const metadata: Metadata = {
-  title: 'Surya Blog Page',
-  description: 'Developed By Surya Prakash',
+  title: 'Blog | Surya Prakash Portfolio',
+  description: 'Read the latest articles and posts from Surya Prakash on web development, technology, and more.',
+  openGraph: {
+    title: 'Blog | Surya Prakash Portfolio',
+    description: 'Read the latest articles and posts from Surya Prakash on web development, technology, and more.',
+  },
+  twitter: {
+    title: 'Blog | Surya Prakash Portfolio',
+    description: 'Read the latest articles and posts from Surya Prakash on web development, technology, and more.',
+  }
 }
 const Page = () => {
   return (
